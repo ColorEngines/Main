@@ -1,4 +1,4 @@
-<?php include_once $_SERVER['DOCUMENT_ROOT'] . "/utilities/includes.php"; ?>
+<?php include_once "../utilities/includes.php"; ?>
 <?php 
 $config = parse_ini_file ( util::hostname().".ini", true);
 ?>
