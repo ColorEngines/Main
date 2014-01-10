@@ -1,0 +1,89 @@
+/* 
+    Document   : local
+    Created on : 10/01/2014, 2:38:03 PM
+    Author     : afakes
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body { 
+    display: block;
+    background-color: #fcfcfc;
+}
+
+header
+{
+    font-size: 120%;
+    border-bottom: 2px solid black;
+}
+
+.clear 
+{
+    float: none;    
+    clear: both;
+}      
+
+.panel
+{
+    width: 98%;
+    height: 600px;
+    border-radius: 10px;
+    border-right: 4px solid pink;
+    border-bottom: 4px solid pink;
+    margin: 1%;
+    padding: 1%;
+}
+
+#lhs
+{
+    float: left;
+    width: 20%;
+    min-width: 220px;
+}
+
+
+#configuration
+{
+    float: left;
+    height: 90%;
+    width: 96%;
+    min-width: 200px;
+    border: none;
+}
+
+#progress
+{
+    float: left;
+    width: 96%;
+    height: 5%;
+    min-width: 200px;
+    border: 4px solid pink;
+    padding: 0.5%;  
+}
+
+
+
+#result
+{
+    width: 70%;
+    float: left;
+    min-width: 400px;
+}
+
+#result_content
+{
+    float: left;
+    height: 90%;
+    width: 96%;
+    min-width: 200px;
+    border: none; 
+    
+}
+
+
+.process_button
+{
+    float: left;
+    width: 49%;
+    font-size: 90%;
+}

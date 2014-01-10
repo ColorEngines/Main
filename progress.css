@@ -1,0 +1,10 @@
+#progress .cell
+{
+    background-color: white;
+    width: 8%;
+    height: 80%;
+    float: left;
+    margin: 1%;
+    border: 1px solid black;
+    
+}
