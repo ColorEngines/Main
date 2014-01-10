@@ -5,7 +5,6 @@
 
 <div class="panel" id="lhs">
     <div class="panel" id="configuration">
-        <header>configuration</header>
         <?php include './configuration.php'; ?>
     </div>
 
@@ -17,7 +16,6 @@
 
 
 <div class="panel" id="result">
-    <header>results</header>
         
     <div class="panel" id="result_content">
         Updated by Ajax Event
