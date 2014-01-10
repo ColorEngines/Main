@@ -1,4 +1,6 @@
-<?php include_once "../utilities/includes.php"; ?>
+<?php 
+include_once "includes.php"; 
+?>
 <?php 
 $config = parse_ini_file ( util::hostname().".ini", true);
 ?>
