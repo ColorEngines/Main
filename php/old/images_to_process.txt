@@ -1,0 +1,384 @@
+./library/Animals/Insects/01 April 038.jpg
+./library/Animals/Insects/Catydids/Chlorobalius/Chlorobalius leucoviridis - Cape Flattery 291.jpg
+./library/Animals/Insects/Catydids/Chlorobalius/Chlorobalius leucoviridis - Cape Flattery 295.jpg
+./library/Animals/Insects/Catydids/Chlorobalius/Chlorobalius leucoviridis - Cape Flattery 292.jpg
+./library/Animals/Insects/Catydids/Chlorobalius/Chlorobalius leucoviridis - Cape Flattery 02.jpg
+./library/Animals/Insects/Catydids/Chlorobalius/Chlorobalius leucoviridis - Cape Flattery 01.jpg
+./library/Animals/Insects/Catydids/Mt. Spurgeon 044.jpg
+./library/Animals/Insects/Catydids/Mt. Spurgeon 047.jpg
+./library/Animals/Insects/Catydids/Raspy Cricket 045.jpg
+./library/Animals/Insects/Catydids/001 Catydid - Cape Tribulation.JPG
+./library/Animals/Insects/Catydids/Raspy Cricket044.jpg
+./library/Animals/Insects/Catydids/Phricta/Phricta spinosa190.jpg
+./library/Animals/Insects/Catydids/Phricta/Phricta spinosa 193.jpg
+./library/Animals/Insects/Catydids/Phricta/Phricta spinosa 192.jpg
+./library/Animals/Insects/Catydids/Phricta/Phricta spinosa 194.jpg
+./library/Animals/Insects/Catydids/Phricta/Phricta spinosa 191.jpg
+./library/Animals/Insects/Catydids/Mt. Spurgeon.jpg
+./library/Animals/Insects/Catydids/Mastigaphoides/Mastigaphoides - Barron Gorge_4017.jpg
+./library/Animals/Insects/Catydids/Mastigaphoides/Mastigaphoides - Barron Gorge_4014.jpg
+./library/Animals/Insects/Catydids/Mastigaphoides/Mastigaphoides - Barron Gorge_4016.jpg
+./library/Animals/Insects/Catydids/Mastigaphoides/Mastigaphoides - Barron Gorge_4015.jpg
+./library/Animals/Insects/Catydids/Mt. Spurgeon 046.jpg
+./library/Animals/Insects/Catydids/002 Catydid - Cape Tribulation.JPG
+./library/Animals/Insects/Bugs/27Feb 016.jpg
+./library/Animals/Insects/Bugs/Archer Point  042.jpg
+./library/Animals/Insects/Bugs/002 Skybury.jpg
+./library/Animals/Insects/Bugs/Archer Point 056.jpg
+./library/Animals/Insects/Bugs/Archer Point 041.jpg
+./library/Animals/Insects/Bugs/27Feb 015.jpg
+./library/Animals/Insects/Bugs/Harlequin Bugs/Cotton Harlequin Bug/001 Cotton Harlequin Bug - Mareeba.JPG
+./library/Animals/Insects/Bugs/Archer Point 053.jpg
+./library/Animals/Insects/Bugs/27Feb 018.jpg
+./library/Animals/Insects/Bugs/Assassin Bugs/005 Havinthus sp. - Koah Rd. turnoff.JPG
+./library/Animals/Insects/Bugs/003 Skybury.jpg
+./library/Animals/Insects/Bugs/27Feb 017.jpg
+./library/Animals/Insects/Bugs/004 Skybury.jpg
+./library/Animals/Insects/Bugs/27Feb 014.jpg
+./library/Animals/Insects/Bugs/Shield Bugs/001 Shield Bug - Cape Flattery.JPG
+./library/Animals/Insects/Bugs/Archer Point 055.jpg
+./library/Animals/Insects/Dragonflies & damselflies/Damselflies/Lestoidea conjuncta - Mareeba 001.JPG
+./library/Animals/Insects/Dragonflies & damselflies/Dragonflies/Cairns 003.JPG
+./library/Animals/Insects/Dragonflies & damselflies/Dragonflies/Tolga 002.JPG
+./library/Animals/Insects/Dragonflies & damselflies/Dragonflies/Tolga 001.JPG
+./library/Animals/Insects/Dragonflies & damselflies/Dragonflies/Cape Flattery 074.jpg
+./library/Animals/Insects/Dragonflies & damselflies/Dragonflies/DSC_0137.JPG
+./library/Animals/Insects/Dragonflies & damselflies/Dragonflies/01 April 036.jpg
+./library/Animals/Insects/Dragonflies & damselflies/Dragonflies/01 April 037.jpg
+./library/Animals/Insects/Dragonflies & damselflies/Dragonflies/Cairns 004.JPG
+./library/Animals/Insects/Termites/Collecting Trip 423.jpg
+./library/Animals/Insects/Termites/Cathedral termite/002 Skybury.jpg
+./library/Animals/Insects/Termites/Cathedral termite/003 Skybury.jpg
+./library/Animals/Insects/Termites/Cathedral termite/004 Skybury.jpg
+./library/Animals/Insects/Termites/Cathedral termite/001 Skybury.jpg
+./library/Animals/Insects/Termites/Arboreal termite/002 Skybury.jpg
+./library/Animals/Insects/Termites/Arboreal termite/004 JCU - Smithfield.JPG
+./library/Animals/Insects/Termites/Arboreal termite/Taylors Head 010.JPG
+./library/Animals/Insects/Termites/Arboreal termite/003 Skybury.jpg
+./library/Animals/Insects/Termites/Arboreal termite/001 Skybury.jpg
+./library/Animals/Insects/Termites/Termite tubes - Archer Point 036.jpg
+./library/Animals/Insects/Termites/Forest Termites/001 Forest Termite - Kuranda.JPG
+./library/Animals/Insects/Collecting Trip 046.jpg
+./library/Animals/Insects/Centipedes/Cave Runner/Cave Runner - Chillagoe 001.jpg
+./library/Animals/Insects/Centipedes/Cave Runner/Cave Runner - Chillagoe 002.jpg
+./library/Animals/Insects/Ant Lions/Ant lion - Skybury 002.jpg
+./library/Animals/Insects/Ant Lions/Ant lion - Skybury001.jpg
+./library/Animals/Insects/Flies/DSC_1322.jpg
+./library/Animals/Insects/Flies/Mt. Spurgeon 038.jpg
+./library/Buildings & monuments/Church.jpg
+./library/Buildings & monuments/006 Cairns City.jpg
+./library/Buildings & monuments/005 Cairns City.jpg
+./library/Buildings & monuments/Cairns Esplanade052.jpg
+./library/Buildings & monuments/Church of the Good Shephard - Lake Tekapo 001.jpg
+./library/Buildings & monuments/Church of the Good Sheaphard - Lake Tekapo 004.jpg
+./library/Buildings & monuments/Church of Good ShChurch of the Good Shephard - Lake Tekapo 002.jpg
+./library/Buildings & monuments/Cairns Esplanade0052.jpg
+./library/Buildings & monuments/Church of the Good Shephard - Lake Tekapo 003.jpg
+./library/Gardens/Tolga/Bridges - Tolga 026.JPG
+./library/Gardens/Tolga/Bridges - Tolga 025.JPG
+./library/Gardens/Tolga/Bridges - Tolga 028.JPG
+./library/Gardens/Tolga/Bridges - Tolga 024.JPG
+./library/Gardens/Tolga/Bridges - Tolga 029.JPG
+./library/Gardens/Tolga/Bridges - Tolga 023.JPG
+./library/Gardens/Tolga/Bridges - Tolga 021.JPG
+./library/Gardens/Tolga/Bridges - Tolga 027.JPG
+./library/Gardens/Tolga/Bridges - Tolga 022.JPG
+./library/Gardens/Atherton/Chinese Temple - Atherton 020.jpg
+./library/Gardens/Cook Islands/Pacific Resort - rarotonga 014.jpg
+./library/Gardens/Cook Islands/Maire Nui Garden - Rarotonga 003.JPG
+./library/Gardens/Cook Islands/Pacific Resort - Rarotonga 015.jpg
+./library/Gardens/Cook Islands/IRDGarden - Noumea, New Caledonia 006.jpg
+./library/Gardens/Cook Islands/Pacific Resort - Rarotonga 018.jpg
+./library/Gardens/Cook Islands/Pacific Resort - Rarotonga 011.jpg
+./library/Gardens/Cook Islands/Pacific Resort - Rarotonga 0017.jpg
+./library/Gardens/Cook Islands/Pacific Resort - Rarotonga 009.jpg
+./library/Gardens/Cook Islands/Maire Nui Gardens - Rarotonga 005.JPG
+./library/Gardens/Cook Islands/Pacific Resort - Rarotonga 010.jpg
+./library/Gardens/Cook Islands/Pacific Resort - rarotonga 019.jpg
+./library/Gardens/Cook Islands/Ariki House - Averua 001.jpg
+./library/Gardens/Cook Islands/Pacific Resort - Rarotonga 013.jpg
+./library/Gardens/Cook Islands/Fruits of Rarotonga - Rarotonga 002.JPG
+./library/Gardens/Cook Islands/Pacific Resort - Rarotonga 012.jpg
+./library/Gardens/Cook Islands/Pacific Resort - Rarotonga 016.jpg
+./library/Gardens/Cook Islands/Maire Nui Gardens - Rarotonga 004.JPG
+./library/Gardens/Noumea/IRD Garden - Noumea, New Caledonia 008.jpg
+./library/Gardens/Trinity Beach/Trinity Beach.JPG
+./library/Artistic/Creeks/Creek - Mareeba 001.JPG
+./library/Artistic/Creeks/Malanda Creek 040.JPG
+./library/Artistic/Creeks/Malanda Creek 039.JPG
+./library/Artistic/Creeks/Malanda Creek 038.JPG
+./library/Artistic/Creeks/Rippled water - Port Douglas 006.JPG
+./library/Artistic/Creeks/Malanda Creek 036.JPG
+./library/Artistic/Creeks/Granite Gorge 026.JPG
+./library/Artistic/Creeks/Granite Gorge 045.JPG
+./library/Artistic/Creeks/Granite Gorge 046.JPG
+./library/Artistic/Creeks/Creek water - Granite Gorge 024.JPG
+./library/Artistic/Cape Flattery 274.jpg
+./library/Artistic/Collecting Trip 070.jpg
+./library/Artistic/Bush/Mareeba 030.JPG
+./library/Artistic/Bush/Mareeba 032.JPG
+./library/Artistic/Bush/White Gum study - Skybury 019.JPG
+./library/Artistic/Bush/Mareeba 031.JPG
+./library/Artistic/Bush/White Gum study - Skybury 024.JPG
+./library/Artistic/Bush/White Gums - Skybury.jpg
+./library/Artistic/Bush/White Gum study - Skybury - 020.JPG
+./library/Artistic/Bush/White Gum study - Skybury 021.JPG
+./library/Artistic/Bush/White Gum study - Skybury 022.JPG
+./library/Artistic/Bush/Collecting Trip 079.jpg
+./library/Artistic/Bush/White Gum study - Skybury 023.JPG
+./library/Artistic/Bush/Collecting Trip 078.jpg
+./library/Artistic/Water drops.jpg
+./library/Artistic/Trees/Melaleuca - Cairns 001.JPG
+./library/Artistic/Trees/Port Douglas 053.JPG
+./library/Artistic/Trees/Trinity Beach 12.6.2009 056.jpg
+./library/Artistic/Trees/Curtain Fig N.P. 043.jpg
+./library/Artistic/Trees/Ghost Gums 044.JPG
+./library/Artistic/Trees/DSC_3364.JPG
+./library/Artistic/Trees/DSC_3600.jpg
+./library/Artistic/Trees/Mangrove flower.jpg
+./library/Artistic/Collecting Trip 060.jpg
+./library/Artistic/Collecting Trip 073.jpg
+./library/Artistic/Leaves/Cyathea leaf - Lake Eacham 014.JPG
+./library/Artistic/Leaves/DSC_4530.JPG
+./library/Artistic/Leaves/DSC_1929.jpg
+./library/Artistic/Leaves/DSC_4528.JPG
+./library/Artistic/Leaves/Calamus leaf - Lake Eacham 010.JPG
+./library/Artistic/Leaves/DSC_4527.JPG
+./library/Artistic/Leaves/Green on green - Mareeba 007.JPG
+./library/Artistic/Leaves/Calamus leaf - Lake Eacham 009.JPG
+./library/Artistic/Leaves/DSC_4529.JPG
+./library/Artistic/Leaves/Water drop.jpg
+./library/Artistic/Leaves/Cyathea leaf - Lake Eacham 013.JPG
+./library/Artistic/Leaves/DSC_1928.jpg
+./library/Artistic/Leaves/DSC_1926.jpg
+./library/Artistic/Leaves/Calamus leaf - Lake Eacham 011.JPG
+./library/Artistic/Leaves/DSC_1927.jpg
+./library/Artistic/Leaves/Cunjevoi - Mareeba 008.JPG
+./library/Artistic/Water/Mareeba Wetlands 029.JPG
+./library/Artistic/Water/Water on Kadaghi leaf - 016.JPG
+./library/Artistic/Water/Untitled-1.jpg
+./library/Artistic/Water/DSC_0004.JPG
+./library/Artistic/Water/Mt. Spurgeon 108.jpg
+./library/Artistic/Water/Mt. Spurgeon 111.jpg
+./library/Artistic/Water/Water drop3304.JPG
+./library/Artistic/Water/0056.JPG
+./library/Artistic/Water/Water on Kadaghi leaf - 018.JPG
+./library/Artistic/Water/Clifton Beach 086.jpg
+./library/Artistic/Water/DSC_0056.JPG
+./library/Artistic/Water/DSC_2897.jpg
+./library/Artistic/Water/DSC_0055.JPG
+./library/Artistic/Water/Water drop3305.JPG
+./library/Artistic/Water/Mareeba Wetlands 028.JPG
+./library/Artistic/Water/DSC_3157-2.jpg
+./library/Artistic/Water/Mt. Spurgeon 112.jpg
+./library/Artistic/Water/DSC_0010.JPG
+./library/Artistic/Water/Flower in pond.jpg
+./library/Artistic/Water/Water drop.jpg
+./library/Artistic/Water/Clifton Beach 083.jpg
+./library/Artistic/Water/Mareeba Wetlands 048.jpg
+./library/Artistic/Water/Clifton Beach 081.jpg
+./library/Artistic/Water/Cape Flattery3394.JPG
+./library/Artistic/Water/DSC_2896.jpg
+./library/Artistic/Water/Water drop3306.JPG
+./library/Artistic/Water/Clifton Beach 082.jpg
+./library/Artistic/Water/Clifton Beach 087.jpg
+./library/Artistic/Water/Mt. Spurgeon 107.jpg
+./library/Artistic/Water/DSC_3947.jpg
+./library/Artistic/Water/DSC_0002.JPG
+./library/Artistic/Water/DSC_2895.jpg
+./library/Artistic/Water/Water on Kadaghi leaf - 017.JPG
+./library/Artistic/Water/0055.JPG
+./library/Artistic/Water/DSC_0054.JPG
+./library/Artistic/Water/Water on Kadaghi leaf - 015.JPG
+./library/Artistic/Water/DSC_1325.jpg
+./library/Artistic/Plants/Rain drop - Mareeba 003.JPG
+./library/Artistic/Plants/Skybury 050.jpg
+./library/Artistic/Plants/Sedge - Skybury 002.JPG
+./library/Artistic/Plants/Soccer 121.jpg
+./library/Artistic/Plants/Soccer 123.jpg
+./library/Artistic/Plants/Skybury 051.jpg
+./library/Artistic/Cape Flattery 273.jpg
+./library/Artistic/Ocean/Cape Flattery 27.05.2009 011.jpg
+./library/Artistic/Ocean/Port Douglas 018.jpg
+./library/Artistic/Ocean/DSC_3422.JPG
+./library/Artistic/Ocean/Port Douglas 015.jpg
+./library/Artistic/Ocean/Port Douglas 052.JPG
+./library/Artistic/Ocean/Cape Flattery 080.jpg
+./library/Artistic/Ocean/DSCF3924.jpg
+./library/Artistic/Ocean/Cape Flattery 27.05.2009 018.jpg
+./library/Artistic/Ocean/6 May 012.jpg
+./library/Artistic/Ocean/Port Douglas 016.jpg
+./library/Artistic/Ocean/Trinity Beach 12.6.2009 063.jpg
+./library/Artistic/Ocean/DSCF3922.jpg
+./library/Artistic/Ocean/Gold at Cape Flattery.jpg
+./library/Artistic/Ocean/Trinity Beach 12.6.2009 011.jpg
+./library/Artistic/Ocean/Port Douglas 054.JPG
+./library/Artistic/Ocean/6 May 006.jpg
+./library/Artistic/Ocean/Palm Cove 041.JPG
+./library/Artistic/Ocean/Port Douglas 049.JPG
+./library/Artistic/Ocean/6 May 024.jpg
+./library/Artistic/Ocean/Soccer 141.jpg
+./library/Artistic/Ocean/Holoway Beach 007.JPG
+./library/Artistic/Ocean/Trinity Beach 12.6.2009 031.jpg
+./library/Artistic/Ocean/Cape Flattery 081.jpg
+./library/Artistic/Ocean/Port Douglas 017.jpg
+./library/Artistic/Ocean/Cape Flattery 27.05.2009 019.jpg
+./library/Artistic/Ocean/Trinity Beach 12.6.2009 008.jpg
+./library/Artistic/Ocean/30 March 046.jpg
+./library/Artistic/Ocean/30 March 047.jpg
+./library/Artistic/Ocean/Cape Flattery 019.jpg
+./library/Artistic/Ocean/Cape Flattery 079.jpg
+./library/Artistic/Ocean/Palm Cove 042.JPG
+./library/Artistic/Ocean/Trinity Beach 12.6.2009 063 (Large).jpg
+./library/Artistic/Ocean/Trinity Beach.JPG
+./library/Artistic/Cape Flattery 272.jpg
+./library/Artistic/Collecting Trip 072.jpg
+./library/Artistic/Water drops001.jpg
+./library/Artistic/Collecting Trip 071.jpg
+./library/Artistic/Dunes/Cape Flattery 052.jpg
+./library/Artistic/Dunes/Cape Flattery 009.jpg
+./library/Artistic/Dunes/Cape Flattery011.jpg
+./library/Artistic/Dunes/Cape Flattery 051.jpg
+./library/Artistic/Dunes/Cape Flattery010.jpg
+./library/Artistic/Rocks/Trinity Beach 12.6.2009 034.jpg
+./library/Artistic/Rocks/Trinity Beach 12.6.2009 032.jpg
+./library/Artistic/Rocks/Trinity Beach 12.6.2009 038.jpg
+./library/Artistic/Rocks/Trinity Beach 12.6.2009 033.jpg
+./library/Artistic/Rocks/Trinity Beach 12.6.2009 036.jpg
+./library/Artistic/Rocks/Trinity Beach 12.6.2009 035.jpg
+./library/Artistic/Rocks/Trinity Beach 12.6.2009 037.jpg
+./library/Artistic/Collecting Trip 062.jpg
+./library/Scale rulers/Scale Ruler 0-10 cm.jpg
+./library/Scale rulers/Scale Ruler 2 cm.jpg
+./library/Fossils/Plant/Fern Fossil - Cape Flattery 003.JPG
+./library/Fossils/Plant/Leaf fossil - Mt. Rochfort 003.jpg
+./library/Fossils/Plant/Epacrid fossil - Mt. Rochfort 002.jpg
+./library/Fossils/Plant/Carbonized stems - Cape Flattery.JPG
+./library/Fossils/Plant/Leaf fossil - Mt. Rochfort 001.jpg
+./library/Fossils/Plant/Plant fossil - Mt. Rochfort 004.jpg
+./library/Fossils/Plant/Fern Fossil - Cape Flattery 002.JPG
+./library/Fossils/Plant/Fern Fossil - Cape Flattery 001.JPG
+./library/Fossils/Sponges & echinoderms/Fossil - Chillagoe 010.jpg
+./library/Fossils/Sponges & echinoderms/Fossil - Chillagoe 009.jpg
+./library/Fossils/Molluscs/Mollusc Fossil - Garibaldi Range, Kahurangai National Park 012.jpg
+./library/Best Images/Nymphaea - Lake Barrine 031.jpg
+./library/Recreation/Yachting/DSC_2827.jpg
+./library/Recreation/Fire Dance/Fire dance 1.jpg
+./library/Recreation/Fire Dance/Fire Dance 5.jpg
+./library/Recreation/Fire Dance/Fire Dance 6.jpg
+./library/Recreation/Fire Dance/Fire Dance 9.jpg
+./library/Recreation/Fire Dance/Fire Dance 2.jpg
+./library/Recreation/Fire Dance/Fire Dance 8.jpg
+./library/Recreation/Fire Dance/Fire Dance 4.jpg
+./library/Recreation/Fire Dance/Fire Dance 11.jpg
+./library/Recreation/Fire Dance/Fire Dance 10.jpg
+./library/Recreation/Fire Dance/Fire Dance 7.jpg
+./library/Recreation/Fire Dance/Fire Dance 13.jpg
+./library/Recreation/Kayakking/Kayakking - Trinity Beach 006.JPG
+./library/Recreation/Kayakking/Kayakking - Trinity Beach 007.JPG
+./library/Recreation/Kayakking/Kayakking - Trinity Beach 004.JPG
+./library/Recreation/Kayakking/Kayakking - Trinity Beach 005.JPG
+./library/Recreation/Kayakking/Barron Gorge 034.jpg
+./library/Cyclone and wind/Cyclone Larry - Bellenden-Ker.jpg
+./library/Cyclone and wind/Cyclone Larry - Bellenden-Ker01.jpg
+./library/Cyclone and wind/Cyclone Larry - Bellenden-Ker002.jpg
+./library/Cyclone and wind/Cyclone Larry - Bellenden-Ker 1.jpg
+./library/Urban/Clifton Beach/Clifton Beach3518.JPG
+./library/Urban/Clifton Beach/Soccer 359.jpg
+./library/Urban/Trinity Beach/Urban development - Trinity Beach.JPG
+./library/Urban/Trinity Beach/Trinity Beach and Kewarra Beach.JPG
+./library/Urban/Trinity Beach/Trinity Beach + Kewarra Beach.JPG
+./library/Urban/Trinity Beach/Trinity Beach Northern Hill.JPG
+./library/Urban/Trinity Beach/Trinity Beach Esplanade.JPG
+./library/Urban/Trinity Beach/Trinity urban area.JPG
+./library/Urban/Trinity Beach/Trinity Beach central.JPG
+./library/Forestry/100_1204.jpg
+./Cape-Flattery-21-April-Medium.jpg
+./coloured_birds/Emerald-Dove-Cairns-003.jpg
+./coloured_birds/AB-032-Lord-Howe-Island-Curawong-Mt.-Gower.jpg
+./coloured_birds/AB-012-Victorias-Riflebird-female-Lake-Eacham.JPG
+./coloured_birds/AB-033-Bar-shouldered-Dove-Cairns.JPG
+./coloured_birds/AB-030-Lord-Howe-Island-Curawong-Mt.-Gower.jpg
+./coloured_birds/Emerald-Dove-Cairns-002.JPG
+./coloured_birds/AB-024-Australasian-Bustard-Mareeba-Wetlands.JPG
+./coloured_birds/AB-045-Superb-Fruit-Dove-Cairns.jpg
+./coloured_birds/AB-017 Australasian Bustard - Mareeba Wetlands.jpg
+./coloured_birds/AB-013-Spotted-Catbird-Lake-Eacham.JPG
+./coloured_birds/AB-005-Grey-headed-Babbler-Skybury.jpg
+./coloured_birds/AB-001-Grey-headed-Babbler-Skybury.jpg
+./coloured_birds/AB-015 Australasian Bustard - Mareeba Wetlands.JPG
+./coloured_birds/AB-043-Rose-crowned-Fruit-Dove-Crystal-Cascades.JPG
+./DSCN4753-Medium.JPG
+./Thylogale-stigmatica-Lake-Eacham-015-Medium.JPG
+./commercial/Water on Kadaghi leaf.JPG
+./commercial/White Gum study - Skybury.JPG
+./commercial/Cairns SunSet .JPG
+./commercial/Lamb Range.JPG
+./Trinity-Beach-12.6.2009-089.jpg
+./DSC_0009.JPG
+./Pieceful-Dove-Cairns-001.JPG
+./Petrogale-mareeba-Granite-Gorge-036-Medium.jpg
+./plants/PC-005-Allamanda-blanchetii-Rarotonga.JPG
+./plants/Adansonia-digitata.jpg
+./plants/022-Diploglottis-Lake-Barrine.jpg
+./plants/017-Livistona-muelleri-Kewarra-Beach.JPG
+./plants/014-Syzygium-cormiflorum-Malanda.JPG
+./plants/Fanie-LHI-Medium.jpg
+./plants/Erwin-078.jpg
+./plants/Tecomanthe-Roaring-Meg1.JPG
+./plants/009-Codaeum-sp.-Trinity-Beach.JPG
+./plants/004-Tinospora-angusta-Cape-Flattery.JPG
+./plants/Canavalia-cathartica-Rarotonga-001.JPG
+./plants/026-Flecker-Bot.-Garden.JPG
+./plants/019-Flecker-Bot.-Garden-Medium.JPG
+./plants/My-first-Dracophyllum-Dun-Mountain-Medium.jpg
+./plants/021-Elaeocarpus-Lake-Barrine.JPG
+./plants/008-Calamus-Lake-Eacham-.JPG
+./plants/011-Amorphophallus-galbra-Ex-Hort.JPG
+./plants/004-Syzygium-erythrophyllum-Flecker-Bot.-Garden-.JPG
+./plants/002-Mangifera-indica-Mareeba.JPG
+./plants/003-Kuranda.JPG
+./plants/Acacia-Cape-Flattery-015.jpg
+./plants/Mucuna-bennettii-Mareeba-004.jpg
+./plants/015-Elaeocarpus-Lake-Eacham.JPG
+./plants/024-Thickened-petiole-Port-Douglas-051.jpg
+./plants/013-Cyathea-Lake-Eacham.JPG
+./plants/Canavalia-rosea-Trinity-Beach-001.jpg
+./plants/001-Codaeum-sp.-trinity-Beach-Medium.JPG
+./plants/012-Cyathea-Lake-Eacham.JPG
+./plants/019-Flecker-Bot.-Garden.JPG
+./plants/007-Ficus-Lake-Eacham.JPG
+./plants/010-Codaeum-sp.-Trinity-Beach.JPG
+./plants/Erwin-078-Medium.jpg
+./plants/006-Asplenium-Lake-Eacham.JPG
+./plants/Cloud-forest-Mt.-Humboldt-003-Medium.JPG
+./plants/020-Syzygium-Port-Douglas.JPG
+./plants/023-Macaranga-Cooktown.JPG
+./plants/Macropus-parryi-Mareeba-012-Medium.JPG
+./plants/001-Codaeum-sp.-trinity-Beach.JPG
+./plants/Ipomoea-pes-caprae-ssp.-brasiliensis-Cape-Flattery-007.JPG
+./plants/Fern-grove-Bellenden-Ker-001-Medium.jpg
+./plants/027-Philodendron-sp.-Flecker-Bot.-Garden.JPG
+./plants/Centrosema-pubescens-Mareeba-001.JPG
+./plants/005-Syzygium-erythrophyllum-Flecker-Bot.-Garden.JPG
+./plants/025-Thunbergia-winged-petiole-Mareeba.jpg
+./plants/Paphia-meiniana-Bellenden-Ker-002.jpg
+./icons/folder_icon.jpg
+./DSC_0217-Medium.JPG
+./Northern-Quoll-Mareeba-003-Medium.JPG
+./DSCN4698-Medium.JPG
+./artistic/White-Gum-study-Skybury-022-Medium.JPG
+./artistic/Wetlands.jpg
+./artistic/Water-on-Kadaghi-leaf-018-Medium.JPG
+./artistic/016-Cape-Tribulation.JPG
+./artistic/Mareeba-047-Medium.JPG
+./artistic/Granite-Gorge-046-Medium.JPG
+./animals/AA-002-Impala-Kabarega-Nat.-Park.jpg
+./animals/AA-004-Defassa-Waterbuck-Kabarega-Nat.-Park.jpg
+./animals/AA-003-Lechwe-Kabarega-Nat.-Park.jpg
+./animals/AA-001-Lichtensteins-Hartebeest-Kabarega-Nat.-Park.jpg
+./animals/013-Giraffe-Kabarega-Nat.-Park-Medium.jpg
+./animals/001-African-Elephant-Kabarega-Nat.-Park-Medium.jpg
+./Mt.-Spurgeon-079.jpg
+./favourites/Syzygium cormiflorum (Small).jpg
+./21-April-041.jpg
