@@ -1,9 +1,4 @@
-<?php 
-include_once "includes.php"; 
-?>
-<?php 
-$config = parse_ini_file ( util::hostname().".ini", true);
-?>
+<?php  include_once "includes.php";  ?>
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">

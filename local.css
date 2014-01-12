@@ -61,7 +61,17 @@ header
     padding: 0.5%;  
 }
 
+#actions
+{
+    height: 5%;
+    border: none;
+    padding: 0px;  
+}
 
+#actions button
+{
+    width: 20%;
+}
 
 #result
 {
@@ -73,7 +83,7 @@ header
 #result_content
 {
     float: left;
-    height: 90%;
+    height: 80%;
     width: 96%;
     min-width: 200px;
     border: none; 
