@@ -4,12 +4,15 @@
 # TEAM
 
     <name> -- <role> -- <twitter>
+    Adam Fakes		Lead Developer				@carlosterly
+    Carl Osterly	Front End Developer		@afakes
 
 # THANKS
 
-    <name>
+    Great Racing Snail of Jupiter
 
 # TECHNOLOGY COLOPHON
 
-    HTML5, CSS3
-    Normalize.css, jQuery, Modernizr
+		PHP
+    HTML5, CSS3, Foundation 5
+    jQuery, Modernizr
