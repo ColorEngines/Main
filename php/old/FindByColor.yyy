@@ -1,0 +1,346 @@
+<?php
+/* 
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+/**
+ * Description of FindByColor
+ *
+ * @author Person
+ */
+class FindByColor
+{
+    //put your code here
+
+    private $colors;
+    private $colorsArray;
+    private $matchedFilenames;
+
+    private $matchedGalleryImage;
+
+    private $matchedObjects;
+
+    private $lessText = "less";
+    private $moreText = "more";
+    private $color_search_title = "COLOUR SEARCH";
+
+
+    public static function matchImage()
+    {
+        return trim(@$_GET["match"]);
+    }
+
+    public static function matchColors()
+    {
+        return trim(@$_GET["colors"]);
+    }
+
+    public static function matchBandwidth()
+    {
+        if (array_key_exists("bw", $_GET)) return trim(@$_GET["bw"]);
+        return 3;
+    }
+
+    public static function matchExtremes()
+    {
+        if (array_key_exists("ex", $_GET)) return trim(@$_GET["ex"]);
+        return 10;
+    }
+
+
+    private function setHeaderButtons()
+    {
+
+	$cst  = "<span class=\"c1\">C</span>";
+  	$cst .= "<span class=\"c2\">O</span>";
+  	$cst .= "<span class=\"c3\">L</span>";
+	$cst .= "<span class=\"c4\">O</span>";
+  	$cst .= "<span class=\"c5\">U</span>";
+  	$cst .= "<span class=\"c6\">R</span>";
+
+       
+        $this->color_search_title = html::div($cst,' class="colour_container" ');
+
+    }
+
+    public function __construct($passedColors, $passedMatchImageFilename, $bandwidth = 3, $excludeExtremes = 10)
+    {
+
+        $this->setHeaderButtons();
+
+        $this->colors = $passedColors;
+
+        $realMatchImageFilename = config::$realImagesFolder.$passedMatchImageFilename;
+        $realMatchImageFilename = str_replace(config::$fs_folder_sep.config::$fs_folder_sep, config::$fs_folder_sep, $realMatchImageFilename);
+        $this->matchedGalleryImage = new gallery_image($realMatchImageFilename, config::$thumbnailWidth, config::$thumbnailHeight);
+
+        // $this->colors - holds comma sep list of colors
+        $this->colorsArray = explode(',',$colorsStr);
+        
+        $this->matchedFilenames = self::findMatchingFilenames($this->colors, $bandwidth, $excludeExtremes);
+
+        $this->matchedObjects = array();
+        if (is_array($this->matchedFilenames))
+        {
+            foreach ($this->matchedFilenames as $key => $imageFilename)
+            {
+                $gi = new gallery_image($imageFilename, config::$thumbnailWidth, config::$thumbnailHeight);
+                if ($gi->failed == FALSE) $this->matchedObjects[$imageFilename] = $gi;
+            }
+        }
+
+    }
+
+    private function findMatchingFilenames($colorsStr, $bandwidth = 3, $excludeExtremes = 10)
+    {
+
+        $db = new database();
+
+        $colorsArray = explode(',',$colorsStr);
+        $this->colorsArray = $colorsArray;
+        
+        // two thoughts create more colors for IN clause
+        // or update DB so we can do ranges ?
+        // have to have decimal values in DB
+        // make ranges - very much easier.
+
+        $allMatches = array();
+        foreach ($colorsArray as $singleRGB)
+        {
+            $middleDecimalRGB[$singleRGB] = self::toDeciaml($singleRGB);
+
+            $mR = $middleDecimalRGB[$singleRGB]['R'];
+            $mG = $middleDecimalRGB[$singleRGB]['G'];
+            $mB = $middleDecimalRGB[$singleRGB]['B'];
+
+            // we need to ignore values close to each end of the range 0 - 255
+            if ( ($mR < $excludeExtremes) && ($mG < $excludeExtremes) &&  ($mB < $excludeExtremes)  ) continue;
+            if ( ($mR > 255-$excludeExtremes ) && ($mG > 255-$excludeExtremes) &&  ($mB < 255-$excludeExtremes)  ) continue;
+            if ( ($mR == $mG && $mG == $mB ) ) continue; // all same - it's gray - eberything has gray
+
+            $sql=<<<SQL
+SELECT c.`filename`
+FROM color c
+where  (Rdec >= ($mR-$bandwidth))
+and    (Rdec <= ($mR+$bandwidth))
+and    (Gdec >= ($mG-$bandwidth))
+and    (Gdec <= ($mG+$bandwidth))
+and    (Bdec >= ($mB-$bandwidth))
+and    (Bdec <= ($mB+$bandwidth))
+SQL;
+            //echo "sql  = $sql<br>\n";
+            //echo "$mR $mG $mB<br>\n";
+
+            $matchedRows = $db->selectKeyValue($sql, 'filename', 'filename');
+            $allMatches = array_merge($allMatches, $matchedRows);
+        }
+
+        $allMatches = array_unique($allMatches);
+ 
+        unset($db);
+
+        return $allMatches;
+    }
+
+
+    public static function addToDecimalColorArray($middleDecimalRGB, $add)
+    {
+        $result = array();
+        foreach ($middleDecimalRGB as $rgbKey => $decimalArray)
+        {
+            foreach ($decimalArray as $colorLetter => $colorDecimalValue)
+            {
+                $result[$rgbKey] = array();
+                $result[$rgbKey][$colorLetter] = $colorDecimalValue + $add;
+
+            }
+        }
+
+        return $result;
+    }
+
+    public static function toDeciaml($hex)
+    {
+        $hex = trim($hex,'#');
+
+        $hexR = substr($hex,0,2);
+        $hexG = substr($hex,2,2);
+        $hexB = substr($hex,4,2);
+
+        // echo "trimplet = $hexR $hexG $hexB<br>\n";
+
+        $decR = hexdec($hexR);
+        $decG = hexdec($hexG);
+        $decB = hexdec($hexB);
+
+
+        $result = array();
+        $result['R'] = $decR;
+        $result['G'] = $decG;
+        $result['B'] = $decB;
+
+
+        //echo " hex = $hex<br>";
+        //echo " hex = $decR $decG $decB<br>";
+        //print_r($result);
+        return $result;
+
+    }
+
+
+    public function display()
+    {
+
+        $bw = self::matchBandwidth();
+
+        $mgi = $this->matchedGalleryImage;
+
+        //if ($mgi->failed == TRUE)  return;
+
+        $url = html::selfURL();
+        $bwQS = "bw=";
+
+        $has_bwQS = util::contains($url, $bwQS);
+        if ($has_bwQS == FALSE)
+        {
+            $url = $url . "&".$bwQS . $bw; // just tak on to end of $url
+        }
+
+
+        $lessNum = $bw - 1;
+        if ($lessNum <= 1) $lessNum = 1;
+        $lessLink=str_replace("$bwQS$bw" , "$bwQS$lessNum", $url);
+        $less = html::href($lessLink, $this->lessText);
+
+        $moreNum = $bw + 1;
+        if ($moreNum >= 15) $moreNum = 15;
+        $moreLink=str_replace("$bwQS$bw" , "$bwQS$moreNum", $url);
+        $more = html::href($moreLink, $this->moreText);
+
+        $title = $this->color_search_title;
+        $lessMore = html::div("<div>$less</div><div class=\"color_search_title\">$title</div><div>$more</div>", 'class="find_less_more"');
+
+        $subHeader = gallery::galleryHomeLink().$this->horizFindSwatches().$lessMore;
+
+        echo html::div($subHeader, ' class="sub_header" ') ;
+
+
+        $h = $mgi->Height();
+        $w = $mgi->Width();
+
+
+
+        $matchIMG = html::img($mgi->mediumWebPath(),'class="find_match_image"');
+
+        $md = $mgi->Metadata();
+        if (is_object($md))
+        {
+            $iaHTML = html::table($md->interestingDataArray(),'class="find_match_metadata"');
+            $tagTable = html::div($md->interestingTags(),'class="find_interesting_tags"');
+        }
+
+        $mosaicURL  = config::$webMosaic."?wfn=".$this->matchedGalleryImage->thumbWebPath();
+
+        // $mosaicLink = html::href($mosaicURL, "generate mosaic");
+        $applicationLinksContent = $mosaicLink;
+        $applicationLinks = html::div($applicationLinksContent, 'class="applicationLinks"');
+
+        // $matchContent = $matchIMG.$applicationLinks.$iaHTML.$tagTable;
+
+        $matchContent = $matchIMG; // .$applicationLinks.$iaHTML.$tagTable;
+
+
+        echo  html::div($matchContent,'class="find_match_container"');
+
+        foreach ($this->matchedObjects as $key => $value)
+        {
+            // for some reason the thumb nail does not exists don't showe it
+            //print_r($value->thumbPath());
+
+            // todo: do fault checking on thumbnail images for size and validity
+
+            if (file_exists($value->thumbPath())== TRUE)
+            {
+                // echo $value->html('style="background-color:'.$value->matchedColor.'";');
+                echo $value->html();
+            }
+        }
+
+
+    }
+
+    private function getIndexFilenames()
+    {
+        $result = array();
+        foreach ($this->colorsArray as $key => $value)
+        {
+            $cn = trim($key,'#');
+            $fn = config::$realColorIndexSingle.$cn.'.txt';
+            $result[$key] = $fn;
+        }
+        return $result;
+    }
+
+
+    private function getUniqueImageFilenames($indexFilenamesArray)
+    {
+
+        // for each index file only take a max of config::$maxColourImages
+        $result = array();
+        foreach ($indexFilenamesArray as $key => $value)
+        {
+
+            // for each key wich is a color we want a unique list of image file names
+            $fa = file::File2Array($value);
+
+            $fa = util::arrayElements($fa,0 , config::$maxColourImages);
+            
+            $fa = array_unique($fa);
+
+            $result = array_merge($result, $fa);
+
+        }
+
+
+        $result = array_unique($result);
+
+        sort($result);
+
+        return $result;
+
+    }
+
+    public function horizFindSwatches()
+    {
+
+        $content = "";
+
+        sort($this->colorsArray);
+
+        foreach ($this->colorsArray as $key => $value)
+        {
+            $class = html::element_class("find_swatch_cell");
+            $style = html::style('background-color:'.$value);
+
+            $colors = 'colors='.urlencode($value);
+            $matchImage = urldecode($_GET["match"]);
+            $findHref = config::$webFindByColorPage.'?'.$colors.'&match='.urlencode($matchImage);
+            $findSingleHref = html::href($findHref, '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;');
+            // replace '' with $findSingleHref belowto put link in swatch cell
+
+            $cell = html::div('', $class.$style);
+            $content .= $cell;
+
+        }
+
+        return html::div($content, ' class="find_swatch_box" ');
+
+    }
+
+
+
+
+
+}
+?>

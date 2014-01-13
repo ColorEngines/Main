@@ -1,0 +1,95 @@
+﻿USE adamfake_images;
+
+DROP TABLE IF EXISTS `adamfake_images`.`color`;
+CREATE TABLE  `adamfake_images`.`color` (
+  `filename` varchar(500) DEFAULT NULL,
+  `rgb` varchar(10) DEFAULT NULL,
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `Rdec` int(11) NOT NULL,
+  `Gdec` int(11) NOT NULL,
+  `Bdec` int(11) NOT NULL,
+  `R` varchar(4) NOT NULL,
+  `G` varchar(4) NOT NULL,
+  `B` varchar(4) NOT NULL,
+  PRIMARY KEY (`id`) USING BTREE,
+  KEY `Index_num` (`rgb`),
+  KEY `Index_filename` (`filename`) USING BTREE,
+  KEY `filename` (`filename`),
+  KEY `rgb` (`rgb`),
+  KEY `Rdec` (`Rdec`),
+  KEY `Gdec` (`Gdec`),
+  KEY `Bdec` (`Bdec`),
+  KEY `Rdec_2` (`Rdec`,`Gdec`,`Bdec`,`R`,`G`,`B`),
+  KEY `filename_2` (`filename`,`rgb`,`Rdec`,`Gdec`,`Bdec`,`R`,`G`,`B`),
+  KEY `filename_3` (`filename`),
+  KEY `rgb_2` (`rgb`),
+  KEY `Rdec_3` (`Rdec`),
+  KEY `Gdec_2` (`Gdec`),
+  KEY `Bdec_2` (`Bdec`),
+  KEY `Rdec_4` (`Rdec`,`Gdec`,`Bdec`)
+) ENGINE=InnoDB AUTO_INCREMENT=0 DEFAULT CHARSET=latin1;
+
+
+DROP TABLE IF EXISTS `adamfake_images`.`histogram`;
+CREATE TABLE  `adamfake_images`.`histogram` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `parent` varchar(100) DEFAULT NULL,
+  `category` varchar(45) DEFAULT NULL,
+  `rgb` double DEFAULT NULL,
+  `rgb_key` double DEFAULT NULL,
+  `red` int(10) unsigned DEFAULT NULL,
+  `green` int(10) unsigned DEFAULT NULL,
+  `blue` int(10) unsigned DEFAULT NULL,
+  `constrained` int(10) unsigned DEFAULT NULL,
+  `rgb_count` double DEFAULT NULL,
+  `Rdec` int(11) NOT NULL,
+  `Gdec` int(11) NOT NULL,
+  `Bdec` int(11) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=0 DEFAULT CHARSET=latin1;
+
+
+DROP TABLE IF EXISTS `adamfake_images`.`interesting_tags`;
+CREATE TABLE  `adamfake_images`.`interesting_tags` (
+  `filename` varchar(500) DEFAULT NULL,
+  `name` varchar(100) DEFAULT NULL,
+  `value` varchar(500) DEFAULT NULL,
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  PRIMARY KEY (`id`) USING BTREE,
+  KEY `Index_name` (`name`),
+  KEY `Index_value` (`value`),
+  KEY `Index_filename` (`filename`),
+  KEY `filename` (`filename`,`name`,`value`)
+) ENGINE=InnoDB AUTO_INCREMENT=0 DEFAULT CHARSET=latin1;
+
+
+DROP TABLE IF EXISTS `adamfake_images`.`metadata`;
+CREATE TABLE  `adamfake_images`.`metadata` (
+  `filename` varchar(500) DEFAULT NULL,
+  `name` varchar(100) DEFAULT NULL,
+  `value` varchar(500) DEFAULT NULL,
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  PRIMARY KEY (`id`) USING BTREE,
+  KEY `Index_name` (`name`),
+  KEY `Index_value` (`value`),
+  KEY `Index_filename` (`filename`),
+  KEY `filename` (`filename`,`name`,`value`)
+) ENGINE=InnoDB AUTO_INCREMENT=0 DEFAULT CHARSET=latin1 PACK_KEYS=1;
+
+
+
+DROP TABLE IF EXISTS `adamfake_images`.`tag`;
+CREATE TABLE  `adamfake_images`.`tag` (
+  `filename` varchar(500) DEFAULT NULL,
+  `name` varchar(100) DEFAULT NULL,
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  PRIMARY KEY (`id`) USING BTREE,
+  KEY `Index_name` (`name`),
+  KEY `Index_filename` (`filename`),
+  KEY `filename` (`filename`,`name`)
+) ENGINE=InnoDB AUTO_INCREMENT=0 DEFAULT CHARSET=latin1;
+
+
+
+
+

@@ -1,0 +1,68 @@
+<?php
+/* 
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+/**
+ * Description of config_class
+ *
+ * @author Person
+ */
+class config {
+    //put your code here
+
+    public static $dbHost = "localhost";
+    public static $dbUser = "adamfake_webuser";
+    public static $dbPassword = "user4web";
+    public static $dbDatabase = "adamfake_images";
+
+    public static $serverAddress = "http://www.ViewNaturalHistory.com/";
+
+    public static $galleryName = "View Natural History";
+    public static $gallerySub = "image gallery";
+    public static $homeWebsite = "www.viewnaturalhistory.com";
+
+
+    public static $realRoot         = '/home3/adamfake/www/';
+    public static $webRoot          = "/";
+
+    public static $realAppFolder    = "/home3/adamfake/www/vnh/gallery/";
+    public static $realRootPage     = "/home3/adamfake/www/vnh/gallery/index.php";
+    public static $realImagesFolder = "/home3/adamfake/www/vnh/images/library/";
+    public static $realIconFolder   = "/home3/adamfake/www/vnh/images/icons/";
+
+
+    public static $webAppFolder     = "/gallery/";
+    public static $webRootPage      = "/gallery/index.php";
+    public static $webImagesFolder  = "/images/library/";
+    public static $webIconFolder    = "/images/icons/";
+
+
+    public static $imageExtensionAllowed = ".jpg";
+
+
+    public static $newline = "<br/>\n";
+    public static $space = "&nbsp;";
+
+    public static $web_folder_sep = "/";
+    public static $fs_folder_sep = "/";
+    public static $fs_extension_sep = ".";
+
+    public static $thumbnailWidth = 100;
+    public static $thumbnailHeight = 100;
+
+    public static $thumbsDB = "Thumbs.db";
+    
+    public static $tinyWidth = 2;
+    public static $tinyHeight = 2;
+
+    public static $mediumWidth = 600;
+    public static $mediumHeight = 600;
+
+
+}
+
+
+
+?>
