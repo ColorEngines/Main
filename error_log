@@ -1,0 +1,7 @@
+[Sun Jan 12 17:53:35 2014] [error] [client 127.0.0.1] PHP Parse error:  syntax error, unexpected '<' in /home/afakes/code/ColorEngines/configuration.php on line 9
+[Sun Jan 12 17:55:08 2014] [error] [client 127.0.0.1] PHP Notice:  Undefined index: data in /home/afakes/code/ColorEngines/configuration.php on line 5
+[Sun Jan 12 17:55:49 2014] [error] [client 127.0.0.1] PHP Notice:  Undefined index: data in /home/afakes/code/ColorEngines/configuration.php on line 5
+[Sun Jan 12 17:55:57 2014] [error] [client 127.0.0.1] PHP Notice:  Undefined index: data in /home/afakes/code/ColorEngines/configuration.php on line 5
+[Sun Jan 12 17:56:02 2014] [error] [client 127.0.0.1] PHP Notice:  Undefined index: data in /home/afakes/code/ColorEngines/configuration.php on line 5
+[Sun Jan 12 17:56:16 2014] [error] [client 127.0.0.1] PHP Notice:  Undefined index: data in /home/afakes/code/ColorEngines/configuration.php on line 5
+[Sun Jan 12 17:56:25 2014] [error] [client 127.0.0.1] PHP Notice:  Undefined index: data in /home/afakes/code/ColorEngines/configuration.php on line 5
