@@ -12,4 +12,17 @@ $im = file_get_contents($filename);
 header("Content-type: image/jpeg");
 echo $im;
 exit();
+
+<?php
+$size = getimagesize($filename);
+$fp = fopen($filename, "rb");
+if ($size && $fp) {
+    header("Content-type: {$size['mime']}");
+    fpassthru($fp);
+    exit;
+} else {
+    // error
+}
+?>
+
 ?>

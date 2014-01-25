@@ -1,10 +1,11 @@
-/* 
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 
-function imageaction(image)
+function imageaction(set,image)
 {
-    alert(image);
-    
+    window.location.href = "selected.php?set=" + encodeURIComponent(set) + "&image=" + encodeURIComponent(image);
+}
+
+function toolaction(tool,url)
+{
+    //alert(tool + " " + url );
+    window.location.href = "tools/" + tool + ".php?url=" + encodeURIComponent(url);
 }

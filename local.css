@@ -19,3 +19,14 @@ body {
     float: left;
     
 }
+
+.imageaction
+{
+    list-style-type: none;
+}
+
+.tool
+{
+    list-style-type: none;
+    float: left;
+}
