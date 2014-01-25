@@ -3,30 +3,8 @@
  * and open the template in the editor.
  */
 
-function getConfiguration()
+function imageaction(image)
 {
-
-}
-
-function process(key,value)
-{
-    var html = key + "<br>" + value;
+    alert(image);
     
-    $("#result_content").html(html );
-    
-}
-
-function startProcess()
-{
-
-}
-
-function getProgress()
-{
-
-}
-
-function showResult()
-{
-
 }
