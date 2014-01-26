@@ -206,12 +206,15 @@ class ColorEngine extends Object {
         if (is_null($this->TempFolderLocal())) return null;
         
         $cached = $this->get_from_url_cache($url);
+        
         if (!is_null($cached)) return $cached;
         
         $randomFolder = str_replace("//", "/", file::mkdir_safe($this->TempFolderLocal().file::random_filename("")));
         if (is_null($randomFolder)) return null;
         
-        $outputfile = file::wget($url, "{$randomFolder}/".util::rightStr($url, "/", false));
+        $to_filename = "{$randomFolder}/".util::rightStr($url, "/", false);
+        $outputfile = file::wget($url, $to_filename);
+        
         if (is_null($outputfile)) return null;
         
         $this->update_url_cache($url,$outputfile);
@@ -222,15 +225,13 @@ class ColorEngine extends Object {
     
     private function get_from_url_cache($url)
     {
-        $url_cache_filename = $this->url_cache_filename();        
+        $url_cache_filename = $this->url_cache_filename();
         if (is_null($url_cache_filename)) { return null; }
      
         if (!file_exists($url_cache_filename)) { return null; }
         
-        file::grepped_text_file($url_cache_filename, "'{$url}'");
-        
         $grepped = util::first_element(file::execute("grep '{$url}' '{$url_cache_filename}'"));
-
+        
         if (count($grepped) == 0) return null;
         
         $cells = str_getcsv($grepped);
@@ -293,6 +294,41 @@ class ColorEngine extends Object {
         return $partResult;
         
     }
+    
+    public function VisualiseImageHistogramFromURL($url, $divHeight = 200,$cellWidth = 4)
+    {
+        
+        $histogram = $this->ImageHistogram($this->URL2Tempfolder($url));
+        
+        $max = array_util::Maximum($histogram);
+        $width = count($histogram);
+        
+        $result = "";
+        
+        $result .= "<img src='{$url}' style='width:200px; height: 200px;' /><br>";
+
+        $fullWidth = ($width * ($cellWidth + 1));
+        
+        $result .= "<div style='width: {$fullWidth}px; height: {$divHeight}px; margin: 0px; padding: 0px;'>";
+        foreach ($histogram as $hex => $count) 
+        {
+            $height = round(($count / $max) * $divHeight,0);
+            $recipHeight = $divHeight-$height;
+
+            $result .=   "<div style='width: {$cellWidth}px; height: {$divHeight}px; float: left; background-color:white; margin-right: 1px;'>"
+                        ."<div style='width: {$cellWidth}px; height: {$recipHeight}px;  background-color:white;'></div>"
+                        ."<div style='width: {$cellWidth}px; height: {$height}px; background-color:{$hex};'></div>"
+                        ."</div>\n";
+        }
+
+        $result .= "</div>";    
+
+        return $result;
+        
+    }
+    
+    
+    
     
     
     

@@ -17,7 +17,7 @@
     </head>
 
     <body>
-        <?php include_once './body.php'; ?>
+       
     </body>
     
 </html>

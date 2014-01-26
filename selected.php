@@ -21,7 +21,6 @@
 <?php
 $CE = new ColorEngine($ini);
 
-
 $imgurl = htmlutil::ProtocolServer().$CE->URL4Image(htmlutil::ValueFromGet('set'), htmlutil::ValueFromGet('image'));
 
 $rowTemplate=<<<TEMPLATE
